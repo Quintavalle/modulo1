@@ -3,11 +3,11 @@ public class Main {
 
         int dividendo = 8;
         int divisore = 4;
-        int quoziente = divideNumbers(dividendo, divisore);
+        int quoziente = dividiNumeri(dividendo, divisore);
         System.out.println("Il quoziente della divisione è: " + quoziente);
     }
 
-    public static int divideNumbers(int dividendo, int divisore) {
+    public static int dividiNumeri(int dividendo, int divisore) {
 
         if (divisore == 0) {
             System.out.println("Errore, impossibile dividere per zero.");
