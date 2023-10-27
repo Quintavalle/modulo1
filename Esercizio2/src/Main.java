@@ -3,7 +3,7 @@ public class Main {
 
         char a = 'a';
         char b = 'b';
-        String sommaAb = "" +a +b;
+        String sommaAb = String.valueOf(a) + String.valueOf(b);
         System.out.println("sommaAb: "+sommaAb);
     }
 }
